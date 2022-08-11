@@ -10,3 +10,29 @@ body{
     padding: 5px;
     background: #609ED4;
 }
+.logo{
+    width: 100%;
+    float: left;
+    background: #356EA9;
+}
+.left-container{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    background: #AAB2D5;
+}
+.right-container{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    background: #ADB5BD;
+}
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    background: #495057;
+}
