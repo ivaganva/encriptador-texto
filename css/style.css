@@ -1,7 +1,10 @@
+
 body{
     margin: 0px;
     padding: 0px;
     background: #E9ECF8;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     margin: auto;
