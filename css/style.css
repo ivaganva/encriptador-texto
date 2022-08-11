@@ -13,24 +13,19 @@ body{
     padding: 5px;
     background: #609ED4;
 }
+/*Contenedor superior*/
 .logo{
     width: 100%;
     float: left;
     background: #356EA9;
 }
+/*Contenedor izquierdo*/
 .left-container{
     float: left;
     width: 70%;
     height: 60%;
     border-radius: 10px;
     background: #AAB2D5;
-}
-.right-container{
-    float: right;
-    width: 30%;
-    height: auto;
-    border-radius: 10px;
-    background: #ADB5BD;
 }
 .left-button{
     float: left;
@@ -50,6 +45,14 @@ body{
     border: none;
     outline: none;
     background: #F3F5FC;
+}
+/*Contenedor derecho*/
+.right-container{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    background: #ADB5BD;
 }
 .munheco{
     margin-left: 4%;
@@ -71,6 +74,7 @@ body{
     outline: none;
     font-size: 15px;
 }
+/*Contenedor izquierdo inferior - botones*/
 .btn-encrypt{
     padding: 25px;
     width: 30%;
@@ -80,7 +84,6 @@ body{
     background: #0A3871;
     color: #D8DFE8;
 }
-
 .btn-decrypt{
     padding: 25px;
     width: 30%;
@@ -89,4 +92,14 @@ body{
     margin-left: 5%;
     background: #D8DFE8;
     color: #0A3871;
+}
+#btnCopiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 20px;
+    display: none;
 }
