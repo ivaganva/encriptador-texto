@@ -8,8 +8,8 @@ body{
 }
 .container{
     margin: auto;
-    width: 940px;
-    height: 650px;
+    width: 960px;
+    height: 680px;
     padding: 5px;
     background: #609ED4;
 }
@@ -50,4 +50,24 @@ body{
     border: none;
     outline: none;
     background: #F3F5FC;
+}
+.munheco{
+    margin-left: 4%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+.texto-mensaje{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.texto-mensaje2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 50%;
+    border: none;
+    outline: none;
+    font-size: 15px;
 }
