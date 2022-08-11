@@ -27,15 +27,16 @@
                 <img id="imgDoll" src="img/doll.png" alt="muñeco" class="munheco">
                 <h2 id="textoMensaje" class="texto-mensaje">Ningún mensaje fue encontrado</h2>
                 <textarea class="texto-mensaje2" name="" id="textoMensaje2" cols="30" rows="10">Ingresa el texto que desees encriptar o desencriptar</textarea>
-                <button id="btnCopiar" type="button" name="button">Copiar</button>
+                <button id="btnCopiar" type="button" name="button" onclick="copyText()">Copiar</button>
             </div>
             <div class="left-button">
                 <p>Solo minusculas y sin acentos</p>
-                <button type="button" class="btn-encrypt">Encriptar</button>
-                <button type="button" class="btn-decrypt">Desencriptar</button>
+                <button type="button" class="btn-encrypt" onclick="encryptText()">Encriptar</button>
+                <button type="button" class="btn-decrypt" onclick="decryptText()">Desencriptar</button>
             </div>
 
         </div>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
