@@ -71,3 +71,22 @@ body{
     outline: none;
     font-size: 15px;
 }
+.btn-encrypt{
+    padding: 25px;
+    width: 30%;
+    height: 60%;
+    border-radius: 20px;
+    margin-left: 15%;
+    background: #0A3871;
+    color: #D8DFE8;
+}
+
+.btn-decrypt{
+    padding: 25px;
+    width: 30%;
+    height: 60%;
+    border-radius: 20px;
+    margin-left: 5%;
+    background: #D8DFE8;
+    color: #0A3871;
+}
