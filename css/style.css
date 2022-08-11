@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: #E9ECF8;
+    background: #F3F5FC;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -38,4 +38,16 @@ body{
     height: auto;
     border-radius: 10px;
     background: #495057;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
 }
