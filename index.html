@@ -13,30 +13,12 @@
 </head>
 <body>
     <main>
-        <!--Contenedor principal-->
-        <div class="container">
-            <!--Contenedor para el logo-->
-            <div class="logo">
-                <h1><img src="https://res.cloudinary.com/kenobi22v/image/upload/v1660228751/encriptador-texto/Logo_o77jxd.png" alt="logo-alura">Encriptador de mensajes</h1>
-            </div>
-            <!--Contenedor del lado izquierdo-->
-            <div class="left-container">
-                <input id="inputText" type="text" class="text-input" placeholder="Ingrese el texto aquí">
-            </div>
-            <!--Contenedor del lado derecho-->
-            <div class="right-container">
-                <img id="imgDoll" src="https://res.cloudinary.com/kenobi22v/image/upload/v1660228751/encriptador-texto/Mu%C3%B1eco_mipjyx.png" alt="muñeco" class="munheco">
-                <h2 id="textoMensaje" class="texto-mensaje">Ningún mensaje fue encontrado</h2>
-                <textarea class="texto-mensaje2" name="" id="textoMensaje2" cols="30" rows="10">Ingresa el texto que desees encriptar o desencriptar</textarea>
-                <button id="btnCopiar" type="button" name="button" onclick="copyText()">Copiar</button>
-            </div>
-            <div class="left-button">
-                <p><img src="img/group.png" alt=""> Solo minusculas y sin acentos</p>
-                <button type="button" class="btn-encrypt" onclick="encryptText()">Encriptar</button>
-                <button type="button" class="btn-decrypt" onclick="decryptText()">Desencriptar</button>
-            </div>
-
-        </div>
+        <section>
+            <textarea class="input-text" cols="40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
+        </section>
+        <section>
+            <textarea class="message" cols="18" rows="8"></textarea>
+        </section>
     </main>
     <script src="js/script.js"></script>
 </body>
