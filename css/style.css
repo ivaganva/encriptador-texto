@@ -1,6 +1,6 @@
 
 body{
-    margin: 0px;
+    margin: 20px 50px;
     padding: 0px;
     background: #F3F5FC;
     font-family: 'Montserrat', sans-serif;
@@ -10,31 +10,41 @@ body{
     display: grid;
     gap: 10px;
     grid-template-columns: 500px 300px;
-    grid-template-rows: 200px;
+    grid-template-rows: 300px;
     place-content: center;
     grid-template-areas: 
     "one three"
-    "two four";
+    "two three";
 }
 .item1{
     grid-area: one;
+    margin: 10px 10px;
+}
+.item1 .input-text{
+    width: 450px;
+    height: 250px;
+    text-align: center;
 }
 .item2{
     grid-area: two;
 }
 .item3{
     grid-area: three;
+    margin: 10px 0px;
+}
+.item3 .message{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    background-image: url("https://res.cloudinary.com/kenobi22v/image/upload/v1660228751/encriptador-texto/Mu%C3%B1eco_mipjyx.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 220px;
 }
 .item4{
     grid-area: four;
 }
 
-
-/*Contenedor superior*/
-.logo{
-    width: 100%;
-    float: left;
-}
 /*Contenedor izquierdo*/
 .left-container{
     float: left;
