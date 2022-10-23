@@ -6,19 +6,30 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-
-main
-{
-    display: flex;
-    margin-left: 80px;
-    margin-bottom: 50px;
-}
 .container{
-    margin: auto;
-    width: 960px;
-    height: 680px;
-    padding: 5px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 500px 300px;
+    grid-template-rows: 200px;
+    place-content: center;
+    grid-template-areas: 
+    "one three"
+    "two four";
 }
+.item1{
+    grid-area: one;
+}
+.item2{
+    grid-area: two;
+}
+.item3{
+    grid-area: three;
+}
+.item4{
+    grid-area: four;
+}
+
+
 /*Contenedor superior*/
 .logo{
     width: 100%;
@@ -104,16 +115,14 @@ main
 .item::before{
     content: "image.png";
 }
-
-#btnCopiar{
-    margin-left: 33%;
-    margin-top: 180%;
+/*
+.btn-copy{
     padding: 15px;
     width: 40%;
     height: 10%;
+    color: black;
     background: #D8DFE8;
     border-radius: 20px;
     display: none;
 }
-
-
+*/
