@@ -12,12 +12,21 @@
     <title>Challenge 1</title>
 </head>
 <body>
+    <header>
+        <img src="https://res.cloudinary.com/kenobi22v/image/upload/v1660228751/encriptador-texto/Logo_o77jxd.png" alt="logo-alura">
+    </header>
     <main>
         <section>
             <textarea class="input-text" cols="40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div class="buttons">
+                <button class="encrypt" onclick="btnEncrypt()">Encriptar</button>
+                <button class="decrypt" onclick="btnDecrypt()">Desencriptar</button>
+            </div>
         </section>
         <section>
             <textarea class="message" cols="18" rows="8"></textarea>
+            <button class="copy">Copiar</button>
         </section>
     </main>
     <script src="js/script.js"></script>
