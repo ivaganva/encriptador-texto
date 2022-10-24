@@ -8,11 +8,16 @@
 const inputText = document.querySelector(".input-text");
 const message = document.querySelector(".message");
 
+
 // Función para encriptar
 function btnEncrypt(){
     const encryptText = encrypt(inputText.value);
     message.value = encryptText;
     message.style.backgroundImage = "none";
+    document.getElementById("textMessage").style.display = "none";
+    document.getElementById("textMessage2").style.display = "none";
+    document.getElementById("btnCopy").style.display = "show";
+    document.getElementById("btnCopy").style.display = "inherit";
     inputText.value = "";
 }
 function encrypt(stringEncrypt){
