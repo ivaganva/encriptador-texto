@@ -16,7 +16,7 @@ function btnEncrypt(){
     inputText.value = "";
 }
 function encrypt(stringEncrypt){
-    /*let matrizCode = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];*/
+    let matrizCode = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     stringEncrypt = stringEncrypt.toLowerCase();
 
     for(let i = 0; i < matrizCode.length; i++){
