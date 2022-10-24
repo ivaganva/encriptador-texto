@@ -104,3 +104,87 @@ p{
     display: none;
 }
 
+@media screen and (min-width: 600px){
+    .container{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 550px;
+        grid-template-rows: 120px;
+        place-content: center;
+        grid-template-areas: 
+        "five"
+        "one"
+        "two" 
+        "three";
+    }
+    .item3{
+        height: 300px;
+    }
+
+    .item3 .message{
+        width: 540px;
+        height: 180px;
+        background-image: none;
+        text-align: center;
+    }
+
+    .btn-copy{
+        padding: 15px;
+        width: 90%;
+        margin: 5px 30px;
+        color: black;
+        background: #D8DFE8;
+        border-radius: 10px;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 300px){
+    .container{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 300px;
+        grid-template-rows: 120px;
+        place-content: center;
+        grid-template-areas: 
+        "five"
+        "one"
+        "two" 
+        "three";
+    }
+    .item1 .input-text{
+        width: 280px;
+        height: 150px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .btn-encrypt{
+        padding: 10px;
+        width: 90%;
+        margin: 10px 15px;
+    }
+    .btn-decrypt{
+        padding: 10px;
+        width: 90%;
+        margin: 10px 15px;
+    }
+    .item3{
+        height: 300px;
+    }
+
+    .item3 .message{
+        width: 280px;
+        height: 180px;
+        background-image: none;
+        text-align: center;
+    }
+
+    .btn-copy{
+        padding: 10px;
+        width: 90%;
+        margin: 5px 15px;
+        border-radius: 10px;
+        display: none;
+    }
+}
+
